@@ -1513,6 +1513,19 @@
       }
     ]
   },
+  "binance.com": {
+    "_name": "Binance",
+    ".": [
+      {
+        "title": "Binance数字货币及交易对上新",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/:lang/support/announcement"
+        ],
+        "target": "/binance/launchpool"
+      }
+    ]
+  },
   "bing.com": {
     "_name": "Bing",
     "cn": [
@@ -4188,6 +4201,29 @@
           "/:locale/free-games"
         ],
         "target": "/epicgames/freegames/:locale"
+      }
+    ]
+  },
+  "blogspot.com": {
+    "_name": "歐洲動態（國際）",
+    "europechinese": [
+      {
+        "title": "最新",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/"
+        ],
+        "target": "/europechinese/latest"
+      }
+    ],
+    "ygkkk": [
+      {
+        "title": "最新发表",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/"
+        ],
+        "target": "/ygkkk/"
       }
     ]
   },
@@ -8535,6 +8571,22 @@
   "minecraft.net": {
     "_name": "Minecraft",
     ".": [
+      {
+        "title": "Java Blocked Servers",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/"
+        ],
+        "target": "/minecraft/blockedservers"
+      },
+      {
+        "title": "Java Runtimes",
+        "docs": "https://docs.rsshub.app/routes/game",
+        "source": [
+          "/"
+        ],
+        "target": "/minecraft/java-runtime/:arch?/:javaType?"
+      },
       {
         "title": "Java Game Update",
         "docs": "https://docs.rsshub.app/routes/game",
@@ -15431,19 +15483,6 @@
           "/post/"
         ],
         "target": "/yande/post/popular_recent/:period?"
-      }
-    ]
-  },
-  "blogspot.com": {
-    "_name": "甬哥侃侃侃YouTube教程摘要随笔",
-    "ygkkk": [
-      {
-        "title": "最新发表",
-        "docs": "https://docs.rsshub.app/routes/blog",
-        "source": [
-          "/"
-        ],
-        "target": "/ygkkk/"
       }
     ]
   },
